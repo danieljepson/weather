@@ -1,0 +1,63 @@
+body {
+	background-color: #CCCCCC;
+	margin:0px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#header {
+	background-color: #FF8C00;
+	border: 2px solid #A65B00;
+	margin-bottom:30px;
+}
+
+#upload {
+	margin-bottom:30px;
+	color:#FFFFFF;
+}
+
+#search {
+	margin-bottom:30px;
+	background-color: #245A7A;
+	border-radius:10px;
+	display: inline-block;
+	width:80%;
+	padding:0.5em;
+	border: 2px solid #64A8D1;
+}
+
+
+/* Code snippet from pseudosavant from a stackoverflow question */
+label.cameraButton {
+  display: inline-block;
+  margin-bottom: 5px;
+  width:80%;
+
+  /* Styles to make it look like a button */
+  padding: 0.5em;
+  border: 2px solid #64A8D1;
+  background-color: #245A7A;
+  border-radius:10px;
+}
+
+/* Look like a clicked/depressed button */
+label.cameraButton:active {
+  border-color: #CCC #EEE #EEE #CCC;
+}
+
+/* This is the part that actually hides the 'Choose file' text box for camera inputs */
+label.cameraButton input[accept*="camera"] {
+  display: none;
+}
+
+#searchtextbox {
+		width:70%;
+		background-color:#245A7A;
+		border:none;
+		height:30px;
+		margin-top:1em;
+		margin-bottom:1em;
+		text-align:center;
+		color:#FFFFFF;
+		font-family:Tahoma, Geneva, sans-serif;
+}
