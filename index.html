@@ -10,29 +10,13 @@
 		</div>
 
 		<div id="upload">		
-			<label class="cameraButton" onclick="getLocation()"><h2>Upload</h2>
-			<input type="file" accept="image/*;capture=camera">
+			<label class="cameraButton"><h2>Upload</h2>
+				<input type="file" accept="image/*;capture=camera">
 			</label>
-			<p id="demo"></p>
-			<script>
-					var a = document.getElementById("demo");
-					
-					function getLocation() {
-					    if (navigator.geolocation) {
-					        navigator.geolocation.getCurrentPosition(showPosition);
-					    } else { 
-					        a.innerHTML = "Geolocation is not supported in this browser.";
-					    }
-					}
-					
-					function showPosition(position) {
-					   	
-					}
-			</script>
 		</div>
 
 		<div id="search">
-                <input type="text" placeholder="Search..." id="searchtextbox">
+                	<input type="text" placeholder="Search..." id="searchtextbox">
 		</div>
 
 	</body>
