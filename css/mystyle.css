@@ -3,6 +3,7 @@ body {
 	margin:0px;
 	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
+	background-image: url("images/background.jpg");
 }
 
 #header {
